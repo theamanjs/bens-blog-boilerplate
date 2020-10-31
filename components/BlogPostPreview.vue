@@ -15,8 +15,8 @@ export default {
         month: 'long',
         day: 'numeric'
       }
-
-      return dateFormat.toLocaleDateString('en-US', options)
+      console.log(dateFormat.toLocaleDateString('en-IN', options))
+      return dateFormat.toLocaleDateString('en-IN', options)
     }
   }
 }

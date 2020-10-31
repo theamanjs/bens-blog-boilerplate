@@ -10,20 +10,20 @@ export default {
       accounts: [
         {
           name: 'Twitter',
-          url: 'https://www.twitter.com/'
+          url: 'https://www.twitter.com/theamanjs'
         },
         {
           name: 'GitHub',
-          url: 'https://www.github.com/'
+          url: 'https://www.github.com/theamanjs'
         },
         {
-          name: 'YouTube',
-          url: 'https://www.youtube.com/'
-        },
-        {
-          name: 'Twitch',
-          url: 'https://www.twitch.tv/'
+          name: 'Instagram',
+          url: 'https://www.instagram.com/theamanjs'
         }
+        // {
+        //   name: 'Twitch',
+        //   url: 'https://www.twitch.tv/'
+        // }
       ]
     }
   }

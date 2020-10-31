@@ -13,10 +13,10 @@ export default {
     <div>
       <logo class="mt-20" />
       <h1 class="title">
-        Your Brand
+        &lt; theamanjs /&gt;
       </h1>
-      <p class="subtitle">Not your average blog boilerplate!</p>
-      <nuxt-link to="/learn" class="button">Call to Action!</nuxt-link>
+      <p class="subtitle">Just another guy who love to code! 💻</p>
+      <nuxt-link to="/learn" class="button">Explore More 🔍</nuxt-link>
     </div>
   </div>
 </template>
