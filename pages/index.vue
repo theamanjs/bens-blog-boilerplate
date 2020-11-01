@@ -13,7 +13,7 @@ export default {
     <div>
       <logo class="mt-20" />
       <h1 class="title">
-        &lt; theamanjs /&gt;
+        &lt;theamanjs/&gt;
       </h1>
       <p class="subtitle">Just another guy who love to code! 💻</p>
       <nuxt-link to="/learn" class="button">Explore More 🔍</nuxt-link>

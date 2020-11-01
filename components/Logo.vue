@@ -12,17 +12,19 @@
   height: 210px;
   margin-left: auto;
   margin-right: auto;
-  // border: 5px solid #34b0fc;
+  border: 5px solid #34b0fc;
   border-radius: 50%;
 }
 .image {
   width: 200px;
   height: 200px;
   border: 5px solid white;
-  background-image: url('../assets/avatar.png');
-  background-size: 205px;
+  background-image: url('../assets/picture.png');
+  background-size: 320px;
   border-radius: 50%;
   overflow: hidden;
+  background-position-y: -39px;
+  background-position-x: -59px;
 }
 .logo {
   border: 5px solid black;

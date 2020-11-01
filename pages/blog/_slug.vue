@@ -50,7 +50,7 @@ export default {
 .content {
   @apply mx-auto;
   @apply px-8;
-  max-width: 740px;
+  max-width: 900px;
 }
 
 .nuxt-content {
