@@ -10,11 +10,11 @@ export default {}
         class="navbar-logo"
         exact-active-class="no-active-style"
       >
-        <img
+        <!-- <img
           class="navbar-logo-image"
           src="~/assets/avatar.png"
           alt="Your Logo"
-        />
+        /> -->
         theamanjs
       </nuxt-link>
     </div>
