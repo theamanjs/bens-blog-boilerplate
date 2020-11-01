@@ -9,13 +9,12 @@ export default {
   },
   computed: {
     formatPublishDate() {
-      const dateFormat = new Date(this.post.published)
+      const dateFormat = new Date(String(this.post.date).split('.')[0])
       const options = {
         year: 'numeric',
         month: 'long',
         day: 'numeric'
       }
-      console.log(dateFormat.toLocaleDateString('en-IN', options))
       return dateFormat.toLocaleDateString('en-IN', options)
     }
   }

@@ -8,14 +8,14 @@ export default {
   },
   computed: {
     formatPublishDate() {
-      const dateFormat = new Date(this.page.date)
+      const dateFormat = new Date(String(this.page.date).split('.')[0])
       const options = {
         year: 'numeric',
         month: 'long',
         day: 'numeric'
       }
 
-      return dateFormat.toLocaleDateString('en-US', options)
+      return dateFormat.toLocaleDateString('en-IN', options)
     }
   }
 }
