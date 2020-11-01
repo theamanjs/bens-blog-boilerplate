@@ -16,7 +16,7 @@ export default {
         &lt;theamanjs/&gt;
       </h1>
       <p class="subtitle">Just another guy who love to code! 💻</p>
-      <nuxt-link to="/learn" class="button">Explore More 🔍</nuxt-link>
+      <nuxt-link to="/about" class="button">Explore More 🔍</nuxt-link>
     </div>
   </div>
 </template>

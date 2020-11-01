@@ -19,6 +19,10 @@ export default {
         {
           name: 'Instagram',
           url: 'https://www.instagram.com/theamanjs'
+        },
+        {
+          name: 'Codepen',
+          url: 'https://www.codepen.io/theamanjs'
         }
         // {
         //   name: 'Twitch',

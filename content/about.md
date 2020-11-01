@@ -32,8 +32,9 @@ Jokes apart, (don't say where were the jokes I tried my best to keep the intro f
 
 
 <br />
+<br />
 
-<p style="margin-top:50px;">P.S These are not all of them but I use them frequently and these images are copied so I didn't do much efforts to add all of them 🥱</p>
+<p style="display:inline-block;margin-top:50px;">P.S These are not all of them but I use them frequently and these images are copied so I didn't do much efforts to add all of them 🥱</p>
 <br />
 
 <details style="display: block; margin-top: 30px;">
