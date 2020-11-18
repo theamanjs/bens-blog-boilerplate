@@ -19,7 +19,7 @@
   width: 200px;
   height: 200px;
   border: 5px solid white;
-  background-image: url('../assets/picture-beautified.jpg');
+  background-image: url('../assets/picture-beautified-2.jpg');
   background-size: 285px;
   border-radius: 50%;
   overflow: hidden;
