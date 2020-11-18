@@ -25,10 +25,20 @@ export default {
   <section class="blog-post">
     <time class="blog-post__time">{{ formatPublishDate }}</time>
     <h2 class="blog-post__title">
-      <a :href="post.path" class="blog-post__link">{{ post.title }}</a>
+      <a
+        :href="post.path"
+        class="blog-post__link"
+        @click="$nuxt.$loading.start()"
+      >
+        {{ post.title }}
+      </a>
     </h2>
     <p v-if="post.excerpt" class="blog-post__excerpt">{{ post.excerpt }}</p>
-    <nuxt-link class="button blog-post__button " :to="post.path">
+    <nuxt-link
+      class="button blog-post__button"
+      :to="post.path"
+      @click="$nuxt.$loading.start()"
+    >
       Read More >
     </nuxt-link>
   </section>
