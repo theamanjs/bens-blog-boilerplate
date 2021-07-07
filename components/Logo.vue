@@ -19,12 +19,12 @@
   width: 200px;
   height: 200px;
   border: 5px solid white;
-  background-image: url('../assets/picture-beautified-2.jpg');
-  background-size: 285px;
+  background-image: url('../assets/profile-picture-2.png');
+  background-size: 195px;
   border-radius: 50%;
   overflow: hidden;
-  background-position-y: -20px;
-  background-position-x: -45px;
+  background-position-y: -4px;
+  background-position-x: -2px;
 }
 .logo {
   border: 5px solid black;
